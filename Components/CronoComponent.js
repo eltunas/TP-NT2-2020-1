@@ -55,7 +55,7 @@ class CronoComponent extends React.Component{
 
     restart(){
         this.setState({
-            minutes: 1,
+            minutes: 25,
             seconds: 0,
             isRestTime: false
         });
